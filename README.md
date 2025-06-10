@@ -1,6 +1,6 @@
 steps: 
 
-## DOCKER COMPOSE 
+# DOCKER COMPOSE 
 
 docker-compose up -d --build
 
