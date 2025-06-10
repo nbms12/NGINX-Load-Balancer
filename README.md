@@ -1,4 +1,4 @@
-steps: 
+AIM: Design and deploy cotainers in Nginx  which can work as a load balancer/ reverse proxy and will ditribute traffic among various containers runs on same port , if one of container is down , other one is working. 
 
 # DOCKER COMPOSE 
 
