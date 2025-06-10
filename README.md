@@ -1,6 +1,16 @@
 AIM: Design and deploy cotainers in Nginx  which can work as a load balancer/ reverse proxy and will ditribute traffic among various containers runs on same port , if one of container is down , other one is working. 
 
 # DOCKER COMPOSE 
+docker -compose Install: 
+
+Docker Compose Installation
+----------------------------------------
+sudo curl -L "https://github.com/docker/compose/releases/download/1.29.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+ls /usr/local/bin/
+sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+docker-compose version
+............
 
 docker-compose up -d --build
 
