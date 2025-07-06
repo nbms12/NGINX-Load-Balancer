@@ -13,12 +13,10 @@ sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 
 sudo chmod +x /usr/local/bin/docker-compose
 
-docker-compose version
+docker-compose version ( test install ) 
 ............
 
-docker-compose up -d --build
-
-docker ps -a
+ 
 
 
 2. we can distribute traffic using nginx as load balancer becoz we dont this option in docker itself.
